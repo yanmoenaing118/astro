@@ -1,0 +1,24 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Counter from "../components/Counter.jsx";
+---
+
+
+<Layout title="About Us Page" >
+    <h1>About us page</h1>
+
+    <Counter client:load />
+    
+</Layout>
+
+
+<style lang="scss">
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+</style>

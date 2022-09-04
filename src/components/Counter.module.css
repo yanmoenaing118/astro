@@ -1,0 +1,7 @@
+.counter {
+    background-color: aqua;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
